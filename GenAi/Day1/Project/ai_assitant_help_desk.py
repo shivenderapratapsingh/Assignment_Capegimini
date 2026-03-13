@@ -97,7 +97,7 @@ while True:
     question = input("Student: ")
     print("=="*100)
     if question.lower() == "exit":
-        print("Chatbot: Goodbye! 👋")
+        print("Chatbot: Goodbye! ")
         break
 
     prompt = f"""
