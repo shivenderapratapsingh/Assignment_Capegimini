@@ -95,7 +95,7 @@ print("Type 'exit' to stop the chatbot\n")
 while True:
 
     question = input("Student: ")
-
+    print("=="*100)
     if question.lower() == "exit":
         print("Chatbot: Goodbye! 👋")
         break
